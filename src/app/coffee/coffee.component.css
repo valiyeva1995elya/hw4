@@ -1,0 +1,38 @@
+img{
+    width: 400px;
+    
+}
+.block-product{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+h1{
+    color: rgb(125, 67, 4);
+    font-size: 50px;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+b{
+    text-decoration: underline; 
+}
+.block-description{
+    color: rgb(125, 67, 4);
+    font-size: 30px;
+    text-align: center;
+    max-width: 500px;
+}
+button{
+    background-color: rgb(125, 67, 4);
+    color: rgb(243, 219, 193);
+    border-radius: 7px;
+    font-size: 25px;
+    width: 100px;
+    height: 35px;
+    border: none;
+    box-shadow: 1px 1px 7px rgb(164, 104, 2);
+    cursor: pointer;
+    margin-top: 10px;
+}

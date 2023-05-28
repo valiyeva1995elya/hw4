@@ -1,0 +1,12 @@
+<div class="block-product">
+  <img [src]="product.imageUrl" [alt]="product.name" />
+  <div class="block-description">
+    <h1>{{ product.name }}</h1>
+    <p>Description:</p>
+    <p><b> {{ product.description }} </b></p>
+    <p> <b>{{ product.calories }}</b></p>
+    <p>Size: <b>{{ product.size }} ml.</b></p>
+    <p>Price: <b>{{ product.price | currency }}</b></p>
+    <button routerLink='/'>Back</button>
+  </div>
+</div>

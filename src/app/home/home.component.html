@@ -1,0 +1,16 @@
+<div class="block">
+  <div class="product" *ngFor="let product of products">
+    <a routerLink="/product/{{ product.id }}">
+      <p class="title">
+        {{ product.name }}
+      </p>
+      <img src="{{ product.imageUrl }}" alt="" />
+      <div class="text">
+        <p>{{ product.size }} ml.</p>
+        <p>
+          {{ product.price | currency }}
+        </p>
+      </div>
+    </a>
+  </div>
+</div>

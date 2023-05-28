@@ -1,0 +1,20 @@
+header{
+    height: 70px;
+    box-shadow: 0px 0px 14px rgb(166, 93, 38);
+    box-sizing: border-box;
+    padding: 10px 60px;
+    display: flex;
+    align-items: center;
+}
+img{
+    border-radius: 1000px;
+    width: 50px;
+    
+}
+a{
+    color: rgb(125, 67, 4);
+    font-size: 30px;
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: bolder;
+}
